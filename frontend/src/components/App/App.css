@@ -1,0 +1,42 @@
+select {
+  min-width: 120px
+}
+
+button {
+  color: rgb(0, 0, 0);
+  margin: 10px;
+}
+
+button.success {
+  background-color: rgba(4, 150, 4, 1)
+}
+
+button.success:hover {
+  background-color: rgb(0, 255, 0);
+}
+
+button.error {
+  background-color: rgb(255, 0, 0);
+}
+
+button.error:hover {
+  background-color: rgba(150, 50, 4, 0.5)
+}
+
+#indicator {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+#indicator.stoped {
+  background-color: rgb(255, 0, 0);
+}
+
+#indicator.active {
+  background-color: rgb(0, 255, 0);
+}
+
+#indicator.paused {
+  background-color: rgb(255, 255, 0);
+}

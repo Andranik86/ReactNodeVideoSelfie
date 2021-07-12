@@ -1,5 +1,5 @@
 {
-  "name": "react-node-start",
+  "name": "react-node-video-selfie",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "Frontend": "file:./frontend",
-    "Backend": "file:./backend"
+    "Backend": "file:./backend",
+    "Frontend": "file:./frontend"
   }
 }
